@@ -37,6 +37,8 @@ name: Allen Institute – Contrast tuning in mouse visual cortex with calcium im
 number_of_subjects: 32
 organism:
 - species: Mus musculus
+publications:
+- url: https://elifesciences.org/articles/55130
 sex:
 - female
 - male

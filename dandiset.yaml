@@ -4,14 +4,14 @@
 access:
 - status: dandi:Open
 contributor:
-- identifier: https://orcid.org/0000-0002-6255-6085
+- identifier: 0000-0002-6255-6085
   includeInCitation: true
   name: Millman, Dan
   roleName:
   - dandi:ContactPerson
   - dandi:Author
   schemaKey: Person
-- identifier: https://orcid.org/0000-0002-3704-3499
+- identifier: 0000-0002-3704-3499
   includeInCitation: true
   name: Vries, Saskia de
   roleName:

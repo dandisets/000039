@@ -6,9 +6,9 @@ access:
 - status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: microscopy approach; cell population imaging
-    schemaKey: ApproachType
   - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
     schemaKey: ApproachType
   - name: behavioral approach
     schemaKey: ApproachType
@@ -32,9 +32,9 @@ assetsSummary:
     name: House mouse
     schemaKey: SpeciesType
   variableMeasured:
+  - PlaneSegmentation
   - Units
   - TwoPhotonSeries
-  - PlaneSegmentation
   - BehavioralTimeSeries
 citation: Millman, Dan; Vries, Saskia de (2021) Allen Institute – Contrast tuning
   in mouse visual cortex with calcium imaging (Version draft) [Data set]. DANDI archive.
@@ -53,6 +53,7 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+dateCreated: '2020-09-12T16:39:16.192000+00:00'
 description: "A two photon calcium imaging dataset from Allen Institute measuring
   responses to full-field drifting gratings (approx. 120x90 degrees of visual space)
   of 8 directions and 6 contrasts (5%, 10%, 20%, 40%, 60%, 80%). Mouse Cre lines expressing

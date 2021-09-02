@@ -38,8 +38,8 @@ assetsSummary:
   - TwoPhotonSeries
   - BehavioralTimeSeries
 citation: Millman, Dan; Vries, Saskia de (2021) Allen Institute – Contrast tuning
-  in mouse visual cortex with calcium imaging (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000039/draft
+  in mouse visual cortex with calcium imaging (Version 0.210902.2328) [Data set].
+  DANDI archive. https://doi.org/10.48324/dandi.000039/0.210902.2328
 contributor:
 - identifier: 0000-0002-6255-6085
   includeInCitation: true
@@ -55,6 +55,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2020-09-12T16:39:16.192000+00:00'
+datePublished: '2021-09-02T23:28:06.838548+00:00'
 description: "A two photon calcium imaging dataset from Allen Institute measuring
   responses to full-field drifting gratings (approx. 120x90 degrees of visual space)
   of 8 directions and 6 contrasts (5%, 10%, 20%, 40%, 60%, 80%). Mouse Cre lines expressing
@@ -65,8 +66,9 @@ description: "A two photon calcium imaging dataset from Allen Institute measurin
   and have the same visual stimulus monitor calibration and positioning, two photon
   imaging systems and image processing pipeline, and running wheel to track locomotion.\n\n
   Data are subject to Allen Institute Terms of Use policy, available at: http://www.alleninstitute.org/legal/terms-use/"
+doi: 10.48324/dandi.000039/0.210902.2328
 ethicsApproval: []
-id: DANDI:000039/draft
+id: DANDI:000039/0.210902.2328
 identifier: DANDI:000039
 keywords:
 - vision
@@ -78,9 +80,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000039/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000039/0.210902.2328/assets.yaml
 name: Allen Institute – Contrast tuning in mouse visual cortex with calcium imaging
 protocol: []
+publishedBy:
+  endDate: '2021-09-02T23:28:06.838548+00:00'
+  id: urn:uuid:8f470bfe-5ae1-4727-a2dc-2d8ae86f6092
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2021-09-02T23:28:06.838548+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:b1b6305d-b26d-4ba2-a2a3-6fe6c45efbd0
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - relation: dcite:IsDescribedBy
   url: https://elifesciences.org/articles/55130
@@ -88,6 +102,6 @@ repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000039/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000039/0.210902.2328
+version: 0.210902.2328
 wasGeneratedBy: []

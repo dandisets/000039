@@ -17,13 +17,13 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 22605968688
+  numberOfBytes: 22606988296
   numberOfFiles: 100
   numberOfSubjects: 32
   schemaKey: AssetsSummary
@@ -32,8 +32,8 @@ assetsSummary:
     name: House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - PlaneSegmentation
   - Units
+  - PlaneSegmentation
   - TwoPhotonSeries
   - BehavioralTimeSeries
 citation: Millman, Dan; Vries, Saskia de (2021) Allen Institute – Contrast tuning
